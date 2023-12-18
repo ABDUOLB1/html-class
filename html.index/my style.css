@@ -1,0 +1,42 @@
+.{
+    margin: 0;
+    background-image: url(/image.jpg);
+    background-size: cover;
+}
+.container{
+    display: flex;
+}
+.left{
+    height: 100vh;
+    background-color: black;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    background-position: 100px;
+}
+.right{
+    height: 100vh;
+    background-color: seagreen;
+    width: 50%;
+    display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+background-image: url(/img.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+.input-field{
+    height: 45px;
+    width: 87%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: white;
+    padding: 0 0 0 45px;
+    background: rgba(red, green, blue, alpha);
+}
